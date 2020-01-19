@@ -13,9 +13,7 @@ BASE_HOA = {
 }
 
 
-def add_character(show = {:chipmunks => ["Alvin", "Simon", "Theodore"],
-                          :third_earthers => ["Lion-O", "Cheetara", "Mumm-Ra (the ever-living)"],
-                          :jetsons => ["George", "Jane", "Judy", "Elroy"]}, name = "Snarf")
+def add_character(show = BASE_HOA, name = "Snarf")
   # Write your implementation here
   # Should return the array of the 'show' argument
   show[:third_earthers] << name
