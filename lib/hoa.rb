@@ -19,7 +19,7 @@ def add_character(show = {:chipmunks => ["Alvin", "Simon", "Theodore"],
   # Write your implementation here
   # Should return the array of the 'show' argument
   show[:third_earthers] << name
-  show[:third_earthers] << name
-  show[:third_earthers] << name
-  show[name]
+#  show[:third_earthers] << name
+  show[:jetsons] << name
+  show
 end
