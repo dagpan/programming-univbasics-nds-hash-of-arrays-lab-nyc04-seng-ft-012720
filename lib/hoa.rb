@@ -14,6 +14,6 @@ def add_character(hash1 = {
 }, name = "Snarf")
   # Write your implementation here
   # Should return the array of the 'show' argument
-  hash1[:third_earthers] << name
+  hash1["third_earthers"] << name
   hash1
 end
